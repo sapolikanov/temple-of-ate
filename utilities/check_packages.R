@@ -6,7 +6,7 @@
 
 # add new packages to the chain here
 packages = c(
-  "here", "renv"
+  "here", "renv",
 )
 
 package.check <- lapply(packages, FUN = function(x) {

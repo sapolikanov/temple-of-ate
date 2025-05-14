@@ -1,12 +1,10 @@
 project:
-  title: "Project Title"
+  title: "Title"
   output-dir: _products
   execute-dir: project
   pre-render: 
     - utilities/check_packages.R      # install required packages
     - utilities/remove_artifacts.ts   # remove previously constructed files
-  render:
-    # specify render ordering
 
 author:
   - name: Stepan Polikanov
